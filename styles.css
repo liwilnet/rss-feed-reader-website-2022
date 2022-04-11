@@ -7,6 +7,7 @@ a {
 }
 span {
   font-size: 20px;
+  font-weight: bold;
 }
 form {
   text-align: center;
@@ -16,14 +17,16 @@ input[type="url"] {
   padding: 10px;
   margin: 0 20px;
   width: 40%;
+  background-color: #dddddd;
 }
 input[type="submit"] {
-  background-color: #ff8c32;
-  color: #fff;
-  padding: 8px 20px;
+  background-color: #06113c;
+  color: #dddddd;
+  padding: 8px 30px;
   border: 0px;
-  border-radius: 5px;
+  /* border-radius: 3px; */
   font-size: 20px;
+  border: 1px solid #06113c;
 }
 article {
   display: flex;
