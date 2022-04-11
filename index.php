@@ -5,7 +5,7 @@
 $domOBJ = new DOMDocument();
 // $domOBJ->load($_POST['rssurl']);
 
-if (isset($_POST['submit'])) {
+if (isset($_POST['submit']) && $_POST['rssurl'] !== '') {
   $domOBJ->load($_POST['rssurl']);
 }
 
